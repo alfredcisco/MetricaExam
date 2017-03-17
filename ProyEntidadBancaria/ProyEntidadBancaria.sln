@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadBancaria.UI.MVC", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadBancaria.Framework", "Shared\EntidadBancaria.Framework\EntidadBancaria.Framework.csproj", "{03DF501E-224B-48F7-AF4F-CDDC3151292C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadBancaria.Services.WebAPI", "Services\EntidadBancaria.Services.WebAPI\EntidadBancaria.Services.WebAPI.csproj", "{CA908A78-3681-414E-A95B-46615F854518}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntidadBancaria.Services.WCF", "Services\EntidadBancaria.Services.WCF\EntidadBancaria.Services.WCF.csproj", "{B1C24454-F644-4DA7-8B90-163D18E979FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +53,14 @@ Global
 		{03DF501E-224B-48F7-AF4F-CDDC3151292C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03DF501E-224B-48F7-AF4F-CDDC3151292C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03DF501E-224B-48F7-AF4F-CDDC3151292C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA908A78-3681-414E-A95B-46615F854518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA908A78-3681-414E-A95B-46615F854518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA908A78-3681-414E-A95B-46615F854518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA908A78-3681-414E-A95B-46615F854518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1C24454-F644-4DA7-8B90-163D18E979FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1C24454-F644-4DA7-8B90-163D18E979FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1C24454-F644-4DA7-8B90-163D18E979FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1C24454-F644-4DA7-8B90-163D18E979FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,5 +71,7 @@ Global
 		{C949A594-E9EB-4709-AA86-7AE2E0B5DFFD} = {65142382-7167-416C-B436-988B4B74E9B3}
 		{8258A4AA-3062-4BCD-A29B-BE912A6DF0E6} = {C4951334-8047-4021-80BB-C0CD4FB519F8}
 		{03DF501E-224B-48F7-AF4F-CDDC3151292C} = {65142382-7167-416C-B436-988B4B74E9B3}
+		{CA908A78-3681-414E-A95B-46615F854518} = {F51DA66F-94F2-43E5-AAA2-AF919C2FE176}
+		{B1C24454-F644-4DA7-8B90-163D18E979FF} = {F51DA66F-94F2-43E5-AAA2-AF919C2FE176}
 	EndGlobalSection
 EndGlobal
